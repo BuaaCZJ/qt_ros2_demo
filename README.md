@@ -21,12 +21,13 @@ ros2_ws01/src/ros2_qt_demo$ tree
 
 5 directories, 8 files
 ```
-编译（ros2_qt_demo单独编译）
+ros2_qt_demo功能包编译
 ```shell
 cd build/
 cmake ..
 make
 ```
+camera、qt_pub、qt_sub功能包编译
 ```shell
 cd ~/dev_ws/src
 colcon build
