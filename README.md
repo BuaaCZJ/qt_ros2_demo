@@ -34,6 +34,21 @@ ros2_ws01/src/ros2_qt_demo/build$
 ```shell
 ./ros2_qt_demo
 ```
+
+自定义订阅者
+```shell
+ros2 run qt_sub qt_sub
+```
+
+自定义发布者
+```shell
+ros2 run qt_pub qt_pub
+```
+
+摄像头节点
+```shell
+ros2 run camera camera_node
+```
 # preview
 ![2023-04-21_18-38](https://user-images.githubusercontent.com/33952798/233620873-a91bf43f-4caf-431a-b08d-591d4bc732b7.png)
 
