@@ -11,7 +11,7 @@ RclComm::RclComm()
         this->_node->create_publisher<std_msgs::msg::String>("chat_qt", 10);
     // 创建订阅者
     this->_subp =
-        this->_node->create_subscription<std_msgs::msg::String>("chat_qt", 10, std::bind(&RclComm::recv_callback, this, std::placeholders::_1));
+        this->_node->create_subscription<std_msgs::msg::String>("qt_1", 10, std::bind(&RclComm::recv_callback, this, std::placeholders::_1));
 }
 
 void RclComm::_pub_msgs(QString str)
